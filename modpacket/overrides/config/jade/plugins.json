@@ -176,6 +176,9 @@
     "maid": true,
     "shrine_lamp": true
   },
+  "ae2cs": {
+    "jade/ender_channels": true
+  },
   "mysticalagriculture": {
     "infused_farmland": true,
     "crop": true,

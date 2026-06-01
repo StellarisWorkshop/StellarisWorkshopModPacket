@@ -1,0 +1,20 @@
+{
+  "buildShape": "BLOCK",
+  "fillMode": "FILL",
+  "rotationDegrees": 0,
+  "quickBuildOpen": true,
+  "ultimineOpen": false,
+  "ultimineLimit": 64,
+  "chunkCurtainVisible": false,
+  "rtsGuiScale": 2.0,
+  "inputSensitivityIndex": 2,
+  "startCameraAtPlayerHead": false,
+  "allowPlacedBlockRecovery": false,
+  "invertPanDragX": false,
+  "invertPanDragY": false,
+  "smoothCamera": true,
+  "debugButtonVisible": false,
+  "containerOverlayEnabled": true,
+  "overlayShiftImportEnabled": false,
+  "dismissedIntroReminderKeys": []
+}

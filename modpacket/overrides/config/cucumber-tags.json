@@ -1,6 +1,6 @@
 {
   "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
-  "forge:ingots/graphite": "nuclearcraft:graphite_ingot",
+  "forge:ingots/graphite": "null",
   "forge:ingots/uranium": "gtceu:uranium_ingot",
   "forge:gems/sapphire": "gtceu:sapphire_gem",
   "forge:ingots/bronze": "gtceu:bronze_ingot",

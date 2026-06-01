@@ -5,7 +5,7 @@
 	group: "68AE7D13759B39D8"
 	icon: "hostilenetworks:sim_chamber"
 	id: "45D0701ADDEF0288"
-	order_index: 4
+	order_index: 2
 	quest_links: [{
 		id: "536EB4F230C7EFB4"
 		linked_quest: "4D188B982ECA1C75"

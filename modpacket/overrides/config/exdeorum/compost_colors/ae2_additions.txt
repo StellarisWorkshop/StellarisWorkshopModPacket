@@ -1,0 +1,8 @@
+// Compost colors for ae2_additions. You may add your own colors, change existing ones, or remove colors that aren't needed.
+ae2_blank_upgrade, #ffbfbb
+ae2_feeding_upgrade, #f5b1c2
+ae2_magnet_upgrade, #f5aec0
+ae2_pickup_upgrade, #f5afc0
+ae2_refill_upgrade, #ffb2bf
+ae2_select_upgrade, #eaabc2
+infinite_storage_cell, #ed9de8
