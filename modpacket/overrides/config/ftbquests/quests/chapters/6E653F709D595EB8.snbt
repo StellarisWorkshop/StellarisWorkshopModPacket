@@ -216,8 +216,8 @@
 				item: "botania:natura_pylon"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -10.5d
+			x: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["3796B5CA9312C7A8"]
@@ -263,6 +263,67 @@
 			}]
 			x: -4.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["6241D74A987E7DC0"]
+			id: "20932719F92CD630"
+			tasks: [{
+				id: "32D2AB9EEC1C204E"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["20932719F92CD630"]
+			id: "422C4BA3CB0C8176"
+			tasks: [{
+				id: "786874F7765FF882"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["422C4BA3CB0C8176"]
+			id: "708FCAE8CF2311A7"
+			tasks: [{
+				id: "6D4931E5B8AB814B"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2D54DF391E989E79"]
+			id: "656B6CEA0D8381ED"
+			tasks: [{
+				id: "1ABAC9CCEFB42B3A"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08D3E8914F32BDEF"]
+			id: "63CE6D78F66C1198"
+			tasks: [{
+				id: "3E53BD154A22678B"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
 		}
 	]
 	title: "植物魔法"

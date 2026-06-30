@@ -177,7 +177,9 @@
     "shrine_lamp": true
   },
   "ae2cs": {
-    "jade/ender_channels": true
+    "jade/ender_broadcaster": true,
+    "jade/mirror_pattern_provider": true,
+    "jade/ender_emitter": true
   },
   "mysticalagriculture": {
     "infused_farmland": true,

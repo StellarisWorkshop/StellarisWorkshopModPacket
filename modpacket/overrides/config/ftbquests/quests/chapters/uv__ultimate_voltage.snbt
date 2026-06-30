@@ -84,6 +84,11 @@
 				"HPCA自己并不能连接到&3网络交换机&r，而是需要一个&3HPCA桥接组件&r来开启这项功能。"
 			]
 			id: "0BADFBA6F96E457E"
+			rewards: [{
+				id: "5B15CF80DBD3BCCE"
+				item: "gtmutils:platinum_credit"
+				type: "item"
+			}]
 			size: 0.75d
 			subtitle: "众志成城······"
 			tasks: [{
@@ -106,6 +111,11 @@
 				"你没见过的组分只有&4三钛框架&r。"
 			]
 			id: "3B49BD004F38E1A2"
+			rewards: [{
+				id: "61264680A879F3B1"
+				item: "gtmutils:platinum_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "&6终极&r&o电路"
@@ -143,6 +153,11 @@
 				"&l&3更多小知识：&r&o有趣的事实：一个中子素方块大致重28.84亿吨而且温度高达约600,000K，但你不知为何可以徒手拿着它。别想太多。"
 			]
 			id: "6DBF61D4F94BC851"
+			rewards: [{
+				id: "5CD234FFDA007DBD"
+				item: "gtmutils:platinum_credit"
+				type: "item"
+			}]
 			size: 0.75d
 			subtitle: "纯中子"
 			tasks: [{

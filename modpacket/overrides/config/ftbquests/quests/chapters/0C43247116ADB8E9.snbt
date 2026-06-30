@@ -24,6 +24,11 @@
 			]
 			icon: "gtceu:uhv_energy_input_hatch"
 			id: "5570F02C03267B36"
+			rewards: [{
+				id: "7F683C75CC553960"
+				item: "gtmutils:platinum_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -111,6 +116,11 @@
 			dependencies: ["6DBF61D4F94BC851"]
 			description: ["&a重力之星&r是GTCEu里最高级的下界之星。它可以解锁&3UV&r传感器、发射器和力场发生器。"]
 			id: "0009F48B6E385A47"
+			rewards: [{
+				id: "0A19F2006FF19D36"
+				item: "gtmutils:platinum_credit"
+				type: "item"
+			}]
 			size: 1.0d
 			subtitle: "很不幸，它并不会让你飘起来"
 			tasks: [{
@@ -189,6 +199,11 @@
 		{
 			dependencies: ["5570F02C03267B36"]
 			id: "297471A03D568373"
+			rewards: [{
+				id: "734DCAADF2537FD0"
+				item: "gtmutils:platinum_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "44E3DCBBB2C62EF0"
 				item: "gtca:tegmark_forge"

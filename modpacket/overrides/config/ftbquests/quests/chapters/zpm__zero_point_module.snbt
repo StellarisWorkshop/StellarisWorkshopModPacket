@@ -27,9 +27,8 @@
 		{
 			dependencies: ["24F0454B9A090C44"]
 			description: [
-				"&a零点模块&r（物品）是一个含有巨量能量的不可充电电池。你可能在此之前已经找到它了，但在&cZPM&r之前还无法使用。"
+				"&a零点模块&r（物品）是一个含有巨量能量的不可充电电池。你可能永远无法找到他，因为这是一个空岛整合包，好消息是&cZPM&r之前还无法使用。"
 				""
-				"它只能作为&6丛林神庙&r的战利品获得。它非常稀有，所以你也不用担心找到它们。"
 				""
 				"这个任务是&6可选的&r，而且纯粹为了好玩。所以如果你想全收集的话请随意按下那个复选框吧！"
 				"{@pagebreak}"
@@ -37,6 +36,11 @@
 			]
 			icon: "gtceu:zero_point_module"
 			id: "75905E3672399A63"
+			rewards: [{
+				id: "0EC7B276D137EDB6"
+				item: "gtmutils:gold_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.66d
 			subtitle: "终极能源！"
@@ -173,6 +177,11 @@
 				"&cZPM&r的下半部分之后需要这些线圈。"
 			]
 			id: "4C7C0F6A6598BC24"
+			rewards: [{
+				id: "01AA2707DF045CA6"
+				item: "gtmutils:gold_credit"
+				type: "item"
+			}]
 			size: 0.75d
 			subtitle: "超过9,000了！！！"
 			tasks: [{
@@ -289,6 +298,11 @@
 			description: ["&a超能硅岩&r是硅岩的同位素Nq-522。它极为不稳定，可用于&3UV&r元件、&9聚变反应堆Mk2&r和聚变。"]
 			icon: "gtceu:naquadria_ingot"
 			id: "6D1F10543A391940"
+			rewards: [{
+				id: "3403C62646331A15"
+				item: "gtmutils:platinum_credit"
+				type: "item"
+			}]
 			size: 0.75d
 			subtitle: "硅岩，但更有放射性！"
 			tasks: [
@@ -378,6 +392,11 @@
 			]
 			icon: "gtceu:zpm_energy_input_hatch"
 			id: "64EA73FAB2A51850"
+			rewards: [{
+				id: "2DBE0B4F14FDFE53"
+				item: "gtmutils:platinum_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.75d
 			tasks: [
@@ -608,6 +627,11 @@
 				"&l&3小知识：&r&o在GCYL中，𬭊代替了镅。镅只能从核反应堆里获得，所以GCYL把它变成了人造元素𬭊。"
 			]
 			id: "762C48F0C2EA6B81"
+			rewards: [{
+				id: "03169B761332FAA8"
+				item: "gtmutils:platinum_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 0.75d
 			subtitle: "如果我们能在核反应堆里做它就好了······"
@@ -704,6 +728,11 @@
 				"&l&3小知识：&r&o在GT5u的一些版本里，三钛的液体是红色的，但材料又是白的。在GTCEu里，我们决定把它全变成红的。嗯，看起来好多了！"
 			]
 			id: "35F13B6D60361904"
+			rewards: [{
+				id: "77CA0C46317DE2FD"
+				item: "gtmutils:gold_credit"
+				type: "item"
+			}]
 			size: 0.75d
 			subtitle: "星际迷航（星际旅行）又来了！"
 			tasks: [{

@@ -263,6 +263,179 @@
 			x: 1.0d
 			y: 3.0d
 		}
+		{
+			can_repeat: true
+			icon: { Count: 64, id: "ae2:logic_processor" }
+			id: "1ABDAA7396C9EE64"
+			rewards: [
+				{
+					count: 64
+					id: "70F425AEBB7E4BB8"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "472B8CF2F1981273"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3AF6E9D9EA95F800"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "697840CD2A595610"
+				item: "gtmutils:gold_credit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:cell_component_1k"
+			id: "5E10A84C987159D3"
+			rewards: [{
+				count: 64
+				id: "21F468023EC56013"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "48E21FF58B611ED2"
+				item: "gtmutils:gold_credit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:cell_component_4k"
+			id: "6951DEE25ECC0C3E"
+			rewards: [{
+				count: 16
+				id: "149076628A8399AD"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "15412C22E7D0F272"
+				item: "gtmutils:gold_credit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:cell_component_16k"
+			id: "4D1BE900E5287FC9"
+			rewards: [{
+				count: 4
+				id: "0F14B8B545E5DD2D"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "06146A96DC50BF8A"
+				item: "gtmutils:gold_credit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:cell_component_64k"
+			id: "30138EE471B343C4"
+			rewards: [{
+				id: "73F2FBBDFF1352CC"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4135F0696819181A"
+				item: "gtmutils:gold_credit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:controller"
+			id: "4534DE0A4EE05439"
+			rewards: [{
+				count: 16
+				id: "5C57B60328583AE1"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0CCAAED0CC667449"
+				item: "gtmutils:gold_credit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:drive"
+			id: "4D142FD98DEE19AE"
+			rewards: [{
+				count: 4
+				id: "1AF73DABBDF3F6A3"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "323CAEEC7459B8B3"
+				item: "gtmutils:gold_credit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "ae2:pattern_provider"
+			id: "6B5ED5C9302D992C"
+			rewards: [
+				{
+					count: 16
+					id: "1517B1182646DE63"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4F5B773088900E05"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "5851C2924FD7B518"
+				item: "gtmutils:gold_credit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
 	]
 	title: "商店"
 }
