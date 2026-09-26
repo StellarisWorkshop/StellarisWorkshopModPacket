@@ -25,7 +25,7 @@
 				item: "gtceu:steel_plate"
 				type: "item"
 			}]
-			size: 0.75d
+			size: 1.0d
 			subtitle: "有时，压力也是好事"
 			tasks: [{
 				id: "77ECBBA179EC9B3F"
@@ -53,8 +53,8 @@
 				type: "item"
 			}]
 			title: "不再有削弱了"
-			x: 0.0d
-			y: -1.875d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -73,7 +73,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.5d
+			size: 1.0d
 			subtitle: "不，这是带滑翔翼的史蒂夫！"
 			tasks: [{
 				id: "1D0F8D4470DFFD19"
@@ -87,8 +87,8 @@
 				type: "item"
 			}]
 			title: "它是幻翼？还是鞘翅？"
-			x: 2.25d
-			y: -1.75d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -134,7 +134,7 @@
 				}
 			]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "压力！压在我身上······"
 			tasks: [{
 				id: "0DC74FB54995F3F1"
@@ -162,8 +162,8 @@
 				type: "item"
 			}]
 			title: "高压"
-			x: 0.0d
-			y: -1.2d
+			x: 0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["07415D6305C3B1D2"]
@@ -204,7 +204,7 @@
 				}
 			]
 			shape: "gear"
-			size: 1.3d
+			size: 1.5d
 			subtitle: "为更伟大的事物下定决心吧"
 			tasks: [
 				{
@@ -220,8 +220,8 @@
 				}
 			]
 			title: "土高炉"
-			x: 1.12d
-			y: -1.5d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -253,7 +253,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "钢，合金里的薛定谔"
 			tasks: [
 				{
@@ -276,8 +276,8 @@
 				}
 			]
 			title: "我们需要更多的钢！"
-			x: 2.25d
-			y: -2.625d
+			x: 3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3514AE9663BA791B"]
@@ -324,7 +324,7 @@
 				}
 			]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "为什么不是用钢做的呢？"
 			tasks: [{
 				dimension: "minecraft:the_nether"
@@ -333,8 +333,8 @@
 				type: "dimension"
 			}]
 			title: "下界历险记"
-			x: 5.625d
-			y: -2.625d
+			x: 6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3514AE9663BA791B"]
@@ -373,7 +373,7 @@
 				}
 			]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "小小的探险一下是不会有害的"
 			tasks: [{
 				count: 16L
@@ -382,8 +382,8 @@
 				type: "item"
 			}]
 			title: "S代表硫"
-			x: 5.625d
-			y: -1.5d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["77EA56D16A9B3BFC"]
@@ -409,7 +409,7 @@
 				}
 			]
 			shape: "gear"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "低压召唤着你······"
 			tasks: [{
 				count: 6L
@@ -419,10 +419,11 @@
 				type: "item"
 			}]
 			title: "[章节毕业线]第一个电动马达"
-			x: 7.87d
-			y: -1.8d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["0436F7B60BDEB091"]
 			description: [
 				"获取纸的难度比原版更大了。谢谢你，格雷。"
 				""
@@ -450,7 +451,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "#现实主义"
 			tasks: [{
 				count: 4L
@@ -459,8 +460,8 @@
 				type: "item"
 			}]
 			title: "格雷再次登场"
-			x: 9.0d
-			y: 0.75d
+			x: 11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
@@ -486,7 +487,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "开个玩笑，坦克是一种储存流体的容器"
 			tasks: [{
 				id: "5876092FAA1763E0"
@@ -494,8 +495,8 @@
 				type: "item"
 			}]
 			title: "装甲坦克"
-			x: -1.125d
-			y: -0.375d
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
@@ -522,7 +523,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "世上没有“免费”的水"
 			tasks: [{
 				id: "03501AB173BA60EE"
@@ -530,8 +531,8 @@
 				type: "item"
 			}]
 			title: "原始水泵"
-			x: 0.0d
-			y: -0.375d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -557,7 +558,7 @@
 				}
 			]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "通过模具来减少脱发"
 			tasks: [
 				{
@@ -577,8 +578,8 @@
 				}
 			]
 			title: "脱发"
-			x: 2.25d
-			y: -0.375d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["249374557D095913"]
@@ -596,7 +597,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "蒸汽提取机可以提取东西······"
 			tasks: [{
 				id: "12A46916B1BC17EC"
@@ -604,8 +605,8 @@
 				type: "item"
 			}]
 			title: "蒸汽提取机"
-			x: 5.625d
-			y: -0.375d
+			x: 6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5193DD03C0742548"]
@@ -622,7 +623,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "你觉得我们会让你用木龙头吗······？"
 			tasks: [{
 				count: 32L
@@ -631,8 +632,8 @@
 				type: "item"
 			}]
 			title: "粘性树脂"
-			x: 7.875d
-			y: 1.875d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -658,7 +659,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "把那个树脂利用起来吧！"
 			tasks: [
 				{
@@ -674,8 +675,8 @@
 				}
 			]
 			title: "复习"
-			x: 7.875d
-			y: -0.375d
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -697,7 +698,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "电子电路容易一点的原件"
 			tasks: [{
 				id: "35CFB9E695DE3549"
@@ -705,8 +706,8 @@
 				type: "item"
 			}]
 			title: "电子元件一：电阻"
-			x: 7.875d
-			y: 0.75d
+			x: 9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
@@ -734,7 +735,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "液体、气体······我们没必要分那么清楚"
 			tasks: [{
 				id: "5953F4446733D908"
@@ -773,8 +774,8 @@
 				type: "item"
 			}]
 			title: "流体管道"
-			x: -1.125d
-			y: 0.75d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["315DBB3B23F95E0D"]
@@ -812,7 +813,7 @@
 				}
 			]
 			shape: "gear"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "向蒸汽时代注入蒸汽"
 			tasks: [{
 				id: "0F864E85D4956919"
@@ -820,8 +821,8 @@
 				type: "item"
 			}]
 			title: "高压锅"
-			x: 0.0d
-			y: 0.75d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
@@ -840,7 +841,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "出人意料的色情"
 			tasks: [{
 				id: "03BA041BE9C347FD"
@@ -848,8 +849,8 @@
 				type: "item"
 			}]
 			title: "蒸汽机器的特性"
-			x: 1.125d
-			y: 0.75d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
@@ -873,7 +874,7 @@
 				}
 			]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "合金炉可以制作合金······"
 			tasks: [{
 				id: "2F3B195A110E41C2"
@@ -881,8 +882,8 @@
 				type: "item"
 			}]
 			title: "蒸汽合金炉"
-			x: 2.25d
-			y: 0.75d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["249374557D095913"]
@@ -901,7 +902,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "电路版中更难做的元件"
 			tasks: [{
 				count: 2L
@@ -910,8 +911,8 @@
 				type: "item"
 			}]
 			title: "电子元件三：真空管"
-			x: 5.625d
-			y: 0.75d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -947,7 +948,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "挺令人满意的，对吧？"
 			tasks: [
 				{
@@ -962,8 +963,8 @@
 				}
 			]
 			title: "玻璃，终于！"
-			x: 4.125d
-			y: -0.375d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
@@ -982,7 +983,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "一个完全虚构的合金"
 			tasks: [{
 				id: "4D3C4CF6577957A1"
@@ -990,8 +991,8 @@
 				type: "item"
 			}]
 			title: "红色合金"
-			x: 4.125d
-			y: 0.75d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1032,7 +1033,7 @@
 				}
 			]
 			shape: "gear"
-			size: 1.2d
+			size: 1.5d
 			subtitle: "你的首个&a电子电路&r！"
 			tasks: [
 				{
@@ -1048,8 +1049,8 @@
 				}
 			]
 			title: "电子元件四：电子电路"
-			x: 6.75d
-			y: 0.75d
+			x: 9.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1FFD2242B94A7378"]
@@ -1083,7 +1084,7 @@
 				}
 			]
 			shape: "rsquare"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "...I'm going into battle, and I need only your finest Potin."
 			tasks: [{
 				id: "7C0AFE7BBF56CD68"
@@ -1122,8 +1123,8 @@
 				type: "item"
 			}]
 			title: "Potin Seller..."
-			x: -2.25d
-			y: 0.75d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
@@ -1143,7 +1144,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "蒸汽锻造锤可以锤东西······"
 			tasks: [{
 				id: "4F4074D7CE5A61A0"
@@ -1151,8 +1152,8 @@
 				type: "item"
 			}]
 			title: "蒸汽锻造锤"
-			x: 0.0d
-			y: 1.875d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
@@ -1173,7 +1174,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "研磨机可以研磨东西······"
 			tasks: [{
 				id: "6DFD6AC8CF31305C"
@@ -1181,8 +1182,8 @@
 				type: "item"
 			}]
 			title: "蒸汽研磨机"
-			x: 1.125d
-			y: 1.875d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["48AED37B4E20A99A"]
@@ -1219,7 +1220,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "一种铁镍合金"
 			tasks: [{
 				count: 3L
@@ -1235,8 +1236,8 @@
 				type: "item"
 			}]
 			title: "殷钢"
-			x: 2.25d
-			y: 1.875d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1259,7 +1260,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "电子电路的电路元件······"
 			tasks: [
 				{
@@ -1282,8 +1283,8 @@
 				}
 			]
 			title: "电子元件二：电路基板"
-			x: 6.75d
-			y: 1.875d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1C50A758A1DE25CB"]
@@ -1299,7 +1300,7 @@
 			icon: "gtceu:crushed_gold_ore"
 			id: "7813F183681E0342"
 			shape: "circle"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "······我怎么才能摆脱它？"
 			tasks: [{
 				id: "1C4CFA0AD3125A6D"
@@ -1307,8 +1308,8 @@
 				type: "checkmark"
 			}]
 			title: "什么乱七八糟的！？"
-			x: 0.0d
-			y: 3.0d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1C50A758A1DE25CB"]
@@ -1338,7 +1339,7 @@
 				}
 			]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "蒸汽熔炼炉的哥哥"
 			tasks: [
 				{
@@ -1369,8 +1370,8 @@
 				}
 			]
 			title: "蒸汽碾磨机"
-			x: 1.125d
-			y: 3.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["76F61E499780C30B"]
@@ -1401,7 +1402,7 @@
 				}
 			]
 			shape: "square"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "蒸汽碾磨机的哥哥"
 			tasks: [
 				{
@@ -1438,8 +1439,8 @@
 				}
 			]
 			title: "蒸汽熔炼炉"
-			x: 2.25d
-			y: 3.0d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1467,13 +1468,13 @@
 			id: "7DDCB711526F37A0"
 			progression_mode: "linear"
 			rewards: [{
-				count: 4
-				id: "3463AA941A74C11C"
-				item: "gtceu:certus_quartz_gem"
+				count: 16
+				id: "61BDF0C05F8B5DC8"
+				item: "gtceu:certus_quartz_ore"
 				type: "item"
 			}]
 			shape: "circle"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "一个高科技背包！"
 			tasks: [{
 				id: "459D19A750BB8440"
@@ -1485,8 +1486,8 @@
 				type: "item"
 			}]
 			title: "便携元件"
-			x: 4.875d
-			y: 1.32d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["03DBF1961AE21C76"]
@@ -1498,7 +1499,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "蒸汽压缩机可以压缩东西······"
 			tasks: [{
 				id: "21C99D59F1BE48A3"
@@ -1506,8 +1507,8 @@
 				type: "item"
 			}]
 			title: "蒸汽压缩机"
-			x: 1.125d
-			y: -0.375d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -1526,7 +1527,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.5d
+			size: 1.0d
 			subtitle: "库存瘦身"
 			tasks: [
 				{
@@ -1541,8 +1542,8 @@
 				}
 			]
 			title: "工具腰带"
-			x: 2.25d
-			y: -1.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5DD49D500327A0E2"]
@@ -1578,7 +1579,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "所有的物流问题都解决了"
 			tasks: [{
 				id: "158F4EEDC214A3BA"
@@ -1606,8 +1607,8 @@
 				type: "item"
 			}]
 			title: "物品管道"
-			x: -1.125d
-			y: 1.875d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["54AF8696674766B4"]
@@ -1622,7 +1623,14 @@
 				""
 				"噢，持有过多的背包会&6使你减速&r。"
 			]
-			icon: "sophisticatedbackpacks:backpack"
+			icon: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					inventorySlots: 27
+					upgradeSlots: 1
+				}
+			}
 			id: "5E89BDA8943534AF"
 			rewards: [{
 				count: 4
@@ -1632,7 +1640,7 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "低科技的个人存储"
 			tasks: [{
 				id: "193A62DF98B59838"
@@ -1640,8 +1648,8 @@
 				type: "item"
 			}]
 			title: "背包"
-			x: 3.3d
-			y: 1.32d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -1667,7 +1675,7 @@
 				item: "gtceu:brittle_charcoal"
 				type: "item"
 			}]
-			size: 0.75d
+			size: 1.0d
 			subtitle: "I'm the trouble starter, punkin' instigator..."
 			tasks: [
 				{
@@ -1683,8 +1691,8 @@
 				}
 			]
 			title: "燃料堆"
-			x: 1.12d
-			y: -2.64d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["40DE888E6025C646"]
@@ -1724,7 +1732,7 @@
 					type: "item"
 				}
 			]
-			size: 0.75d
+			size: 1.0d
 			subtitle: "So long, and Tanks for all the fish!"
 			tasks: [
 				{
@@ -1793,8 +1801,8 @@
 				}
 			]
 			title: "多方块储罐"
-			x: 0.0d
-			y: -2.625d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1814,7 +1822,7 @@
 			icon: "gtceu:steel_frame"
 			id: "27240865315F9530"
 			shape: "rsquare"
-			size: 0.66d
+			size: 1.0d
 			subtitle: "通心粉从未显得如此时髦！"
 			tasks: [{
 				id: "431894F9877BC900"
@@ -1822,8 +1830,8 @@
 				type: "item"
 			}]
 			title: "美学的巅峰"
-			x: -2.25d
-			y: 1.875d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["249374557D095913"]
@@ -1878,20 +1886,20 @@
 				type: "item"
 			}]
 			title: "这才是真正的无中生有"
-			x: 4.125d
-			y: -1.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3514AE9663BA791B"]
 			id: "003FF78E390F0CC1"
-			size: 0.75d
+			size: 1.0d
 			tasks: [{
 				id: "28F897CCBA96A02C"
 				item: "gtsw:hp_steam_sieve"
 				type: "item"
 			}]
-			x: 4.125d
-			y: -2.625d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1FFD2242B94A7378"]
@@ -1907,7 +1915,7 @@
 			]
 			icon: "gtceu:tungsten_steel_quadruple_fluid_pipe"
 			id: "66041DE10C882382"
-			size: 0.75d
+			size: 1.0d
 			subtitle: "“我寻思频道限制也没了呀！”"
 			tasks: [{
 				id: "2620FA131244B3DA"
@@ -1931,8 +1939,275 @@
 				type: "item"
 			}]
 			title: "多频道管道"
-			x: -2.25d
-			y: -0.375d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7FF95F1216D104B2"]
+			description: [
+				"将&7燧石粉&r、&6粘土粉&r与&7石头粉&r混合，即可获得这种至关重要的中间产物。它是制作&6粘土化合物锭&r的原料，而粘土化合物锭则是&d液压部件&r的核心材料。"
+				""
+				"{@pagebreak}"
+				"&9合成配方：&r"
+				""
+				"&7燧石粉&r"
+				""
+				"&6粘土粉&r"
+				""
+				"&7石头粉&r"
+				""
+				"在&b混合机&r或&b工作盆&r中混合搅拌，即可得到&e粘土化合物粉&r。"
+				""
+				"&l用途：&r"
+				"将&e粘土化合物粉&r加工成&6粘土化合物锭&r后，便可制作&d液压部件&r——包括&b液压活塞&r、&b液压马达&r等。这些部件是构建&9机械动力&r高级设备不可或缺的组件，为你的自动化机械注入强劲动力。"
+				""
+				"{@pagebreak}"
+				"&l小技巧：&r燧石粉可通过研磨燧石获得，粘土粉和石头粉也容易大量生产。建议建立自动化生产线，批量供应，确保液压部件生产不中断。"
+				""
+				"&l&3液压之力：&r&o现实中的液压系统通过液体压力传递巨大动力，在机械动力模组中，这些液压部件将让你的机械装置更加强大、精密！&r"
+				""
+				"现在就去收集材料，开始制作你的第一批液压部件吧！"
+			]
+			id: "16B2C2062A997BF1"
+			rewards: [{
+				count: 16
+				id: "530BC13AB3F95F10"
+				item: "gtna:clay_compound_dust"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0AD2235D9B1EB498"
+				item: { Count: 2, id: "gtna:clay_compound_dust" }
+				type: "item"
+			}]
+			title: "&6液压系统的基石&r"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["16B2C2062A997BF1"]
+			id: "65BCBD3D9854DEA8"
+			rewards: [{
+				count: 8
+				id: "05A217D2C8247E9A"
+				item: "gtna:clay_compound_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CE9FFB7710BBA34"
+				item: "gtna:hydraulic_pump"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B8EAF4BAE24189E"]
+			id: "28417E44017784B7"
+			rewards: [{
+				count: 8
+				id: "2FC0E9AFEAD255F3"
+				item: "gtna:clay_compound_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1135AEEDBA282239"
+				item: "gtna:hydraulic_piston"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["16B2C2062A997BF1"]
+			id: "3B8EAF4BAE24189E"
+			rewards: [{
+				count: 8
+				id: "556D28B7F0EA4E76"
+				item: "gtna:clay_compound_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24108F4CE9FD11A0"
+				item: "gtna:hydraulic_motor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B8EAF4BAE24189E"]
+			id: "5EB45F4A267C1E24"
+			rewards: [{
+				count: 8
+				id: "439CFFA67E80C338"
+				item: "gtna:clay_compound_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71676B18AB168F38"
+				item: "gtna:hydraulic_conveyor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["28417E44017784B7"]
+			id: "02A5E87ECB6264AE"
+			rewards: [{
+				count: 8
+				id: "1F6C683C31325BD6"
+				item: "gtna:clay_compound_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C1EBFD19563F2B0"
+				item: "gtna:hydraulic_arm"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7CAD6FF241A827F7"]
+			description: [
+				"蒸汽原石机是你在&6蒸汽时代&r解锁的一台大型多方块加工设备。它本质上是一台&d大号的碎岩机&r，能够以蒸汽为动力，大批量地将水或岩浆转化为&7圆石&r、&6石头&r等基础建材，彻底解决空岛石材短缺的难题。"
+				""
+				"{@pagebreak}"
+				"&9核心用途：&r"
+				""
+				"大量生产&7圆石&r，为建筑和加工提供充足原料"
+				""
+				"可进一步加工为&6石头&r、&a石砖&r等建筑方块"
+				""
+				"配合粉碎机产出&7砂砾&r、&e沙子&r、&f石英粉&r等，用于筛矿或冶炼"
+				""
+				"&l搭建与运行：&r"
+				""
+				"使用&b蒸汽原石机控制器&r搭建多方块结构（在控制器上按&dU&r查看EMI多方块预览）"
+				""
+				"输入&6蒸汽&r作为动力，蒸汽可由&b蒸汽锅炉&r提供"
+				""
+				"输入&9水&r或&4岩浆&r作为原料（具体配方请查看EMI）"
+				""
+				"输出端需及时抽出产物，避免堵塞导致停机"
+				""
+				"{@pagebreak}"
+				"&l自动化建议：&r"
+				""
+				"使用&b蒸汽管道&r连接锅炉与原石机，确保蒸汽供应稳定"
+				""
+				"用&b传送带&r、&b漏斗&r或&b机械臂&r自动抽出圆石"
+				""
+				"将圆石送入&b粉碎机&r→&b研磨机&r，获得砂砾、沙子、粉尘，构建完整的石材加工链"
+				""
+				"&l&3工业基石：&r&o现实中的蒸汽破碎机利用蒸汽动力驱动重型锤头，将大块岩石破碎成小颗粒。你的蒸汽原石机正是这一原理的工业化应用，为你的空岛帝国提供源源不断的石材！&r"
+				""
+				"&l技巧：&r前期可手动添水，后期实现全自动水供应。蒸汽供应不足时机器会停机，建议搭配&b蒸汽储罐&r作为缓冲。"
+				""
+				"现在就去搭建你的蒸汽原石机，让&6蒸汽之力&r为你破碎万物！"
+			]
+			id: "7568A0A8CD6F9526"
+			rewards: [
+				{
+					id: "1CA3CAB6A369DDEC"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "0BF112207B3C76E6"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "&6大号的碎岩机&r"
+			tasks: [{
+				id: "7E18D501224CCB08"
+				item: "gtna:steam_cobbler"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15923B47D23CCF34"]
+			description: [
+				"&b大型蒸汽储罐&r是多方块版本的储罐，专为存储&6蒸汽&r而设计。它的容量高达&e120,000,000 mB&r，是你蒸汽工业体系中不可或缺的&5巨型缓冲容器&r。"
+				""
+				"{@pagebreak}"
+				"&9核心特性：&r"
+				""
+				"&6多方块结构&r：需搭建控制器与储罐壁（在控制器上按&dU&r查看EMI多方块预览）"
+				""
+				"&e超大容量&r：&6120,000,000 mB&r，足以支撑大规模蒸汽网络"
+				""
+				"&c专用存储&r：&l只能存储蒸汽&r，无法存储其他流体"
+				""
+				"&b输入/输出&r：通过储罐阀或端口连接蒸汽管道"
+				""
+				"&l主要用途：&r"
+				""
+				"平衡&b蒸汽锅炉&r与蒸汽机器之间的供需波动"
+				""
+				"为&b蒸汽原石机&r、&b蒸汽涡轮&r等大型设备提供稳定蒸汽供应"
+				""
+				"作为蒸汽发电系统的&d能量缓冲池&r，避免因蒸汽不足导致停机"
+				""
+				"配合&b蒸汽调节器&r实现精准供能"
+				""
+				"{@pagebreak}"
+				"&l搭建与使用提示：&r"
+				""
+				"使用&b储罐方块&r搭建任意大小的多方块结构（具体规则见EMI预览）"
+				""
+				"必须放置&b储罐控制器&r才能形成有效结构"
+				""
+				"用&b蒸汽管道&r连接锅炉与储罐，再连接至用汽设备"
+				""
+				"储罐阀可配置为输入或输出模式"
+				""
+				"&c注意：只能通入蒸汽，其他流体会导致无法存储"
+				""
+				"&l&3工业缓冲：&r&o现实中的大型储气罐用于平衡能源供需，你的蒸汽储罐正是这一理念在空岛工业中的体现。有了它，蒸汽网络将不再因瞬间波动而崩溃，大型机器的运转将更加平稳可靠！&r"
+				""
+				"&l技巧：&r将储罐放置在蒸汽锅炉与主要用汽设备之间，作为中枢缓冲。配合&b蒸汽储罐&r任务中的基础储罐，逐步升级容量。满罐蒸汽可支撑长时间的高强度生产，记得定期检查压力（如有配置）。"
+				""
+				"现在就去搭建你的&6巨型蒸汽储罐&r，让蒸汽真正成为你工业帝国的血液！"
+			]
+			id: "17C9178622975533"
+			rewards: [{
+				count: 16
+				id: "055DA0CDB52A8A99"
+				item: "gtceu:bronze_small_fluid_pipe"
+				type: "item"
+			}]
+			subtitle: "&6蒸汽时代的巨型蓄能池&r"
+			tasks: [{
+				id: "74902BC40C940156"
+				item: "gtna:large_steam_storage_tank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FD75E4BD95F6645"]
+			id: "6DCE6730472D7C1F"
+			rewards: [{
+				count: 4
+				id: "0F9C9DD4FD382218"
+				item: "gtceu:solid_machine_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DB15103A9ED34A6"
+				item: "gtna:large_steam_solar_boiler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
 		}
 	]
 	subtitle: ["使用蒸汽的力量并准备迈向工业化"]

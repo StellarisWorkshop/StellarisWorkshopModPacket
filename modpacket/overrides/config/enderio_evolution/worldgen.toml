@@ -1,0 +1,8 @@
+
+#银矿石世界生成设置
+[SilverOre]
+	#是否在主世界生成银矿石（含石头/深层石头变体）。
+	generateSilverOre = true
+	#是否在恶地生物群系生成额外的地表银矿脉。
+	generateSilverBadlandsBonus = true
+

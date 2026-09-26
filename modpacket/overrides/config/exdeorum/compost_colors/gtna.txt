@@ -1,0 +1,14 @@
+// Compost colors for gtna. You may add your own colors, change existing ones, or remove colors that aren't needed.
+hydraulic_arm, #a07979
+hydraulic_conveyor, #645048
+hydraulic_motor, #906f70
+hydraulic_piston, #ffa796
+hydraulic_pump, #a27d7d
+hydraulic_regulator, #987272
+hydraulic_steam_jet_spewer, #daa098
+hydraulic_steam_receiver, #d48675
+hydraulic_vapor_generator, #f1a294
+nexus_linker, #5b7c9b
+nexus_structure_terminal, #37323d
+precision_steam_component, #ffd39a
+quantum_network_terminal, #545757

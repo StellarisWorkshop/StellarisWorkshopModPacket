@@ -5,12 +5,12 @@
 	group: "208B4565BE773F2F"
 	icon: "mysticalagriculture:awakened_supremium_essence"
 	id: "082420931D00780D"
-	order_index: 3
+	order_index: 2
 	quest_links: [{
 		id: "3D8C92A7348146B4"
 		linked_quest: "4479DF668F884C90"
-		x: -1.5d
-		y: 0.0d
+		x: 0.0d
+		y: 4.5d
 	}]
 	quests: [
 		{
@@ -20,8 +20,8 @@
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1B201FC3233990EE"]
@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["63FF3FAC4355EE35"]
@@ -42,7 +42,7 @@
 				item: "mysticalagriculture:tertium_essence"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 3.0d
 		}
 		{
@@ -53,8 +53,8 @@
 				item: "mysticalagriculture:imperium_essence"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5166DBD0D93BCD0D"]
@@ -65,7 +65,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["797F47BA6F8FB822"]
@@ -75,10 +75,14 @@
 				item: "mysticalagriculture:awakened_supremium_essence"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
+			dependencies: [
+				"3B47D24BB0D4DA31"
+				"4479DF668F884C90"
+			]
 			id: "6890F6059DA4ABF8"
 			tasks: [
 				{
@@ -92,10 +96,14 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"7B05F8A9635899F2"
+				"4479DF668F884C90"
+			]
 			id: "4AFCFB7D7E8CC1F3"
 			tasks: [
 				{
@@ -109,8 +117,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 1.5d
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "魔法作物"

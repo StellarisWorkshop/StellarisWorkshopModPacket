@@ -456,8 +456,8 @@
 				}
 			]
 			title: "MV元件"
-			x: 0.375d
-			y: 1.875d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -855,8 +855,8 @@
 				type: "item"
 			}]
 			title: "温室"
-			x: 0.375d
-			y: 2.625d
+			x: 1.125d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -2374,6 +2374,47 @@
 			}]
 			x: 9.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["1BE0349B8F3890D3"]
+			id: "07D8870C55B2F12D"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "0E2F2F5909590CDC"
+				item: {
+					Count: 1
+					id: "gtna:echoite_vajra"
+					tag: {
+						Damage: 0
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 110.0f
+							AttackSpeed: 2.0f
+							DefaultEnchantments: [ ]
+							HarvestLevel: 6
+							MaxDamage: 64
+							ToolSpeed: 12.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.37d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BE0349B8F3890D3"]
+			id: "77E139CE150C3B69"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "2EFAD42292F0D731"
+				item: "gtna:universal_factory"
+				type: "item"
+			}]
+			x: -3.37d
+			y: 4.375d
 		}
 	]
 	subtitle: ["开展石化并改良电路"]

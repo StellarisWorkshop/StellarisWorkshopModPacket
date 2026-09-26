@@ -134,43 +134,6 @@
 		}
 		{
 			can_repeat: true
-			icon: "minecraft:sand"
-			id: "33CEEAF95526588D"
-			rewards: [{
-				count: 16
-				id: "31472750E82C59FF"
-				item: "minecraft:sand"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "2C7E4850FED2A139"
-				item: "gtmutils:copper_credit"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			can_repeat: true
-			icon: "minecraft:gravel"
-			id: "5A6E179624C07439"
-			rewards: [{
-				id: "5A9711A91FC2A755"
-				item: "minecraft:gravel"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "2851E69D2E7786C9"
-				item: "gtmutils:copper_credit"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 1.0d
-		}
-		{
-			can_repeat: true
 			icon: "minecraft:cobblestone"
 			id: "65FC6C0008F2D846"
 			rewards: [{
@@ -185,7 +148,7 @@
 				item: "gtmutils:copper_credit"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
@@ -265,23 +228,23 @@
 		}
 		{
 			can_repeat: true
-			icon: { Count: 64, id: "ae2:logic_processor" }
+			icon: "ae2:logic_processor"
 			id: "1ABDAA7396C9EE64"
 			rewards: [
 				{
-					count: 64
+					count: 16
 					id: "70F425AEBB7E4BB8"
 					item: "ae2:logic_processor"
 					type: "item"
 				}
 				{
-					count: 64
+					count: 16
 					id: "472B8CF2F1981273"
 					item: "ae2:calculation_processor"
 					type: "item"
 				}
 				{
-					count: 64
+					count: 16
 					id: "3AF6E9D9EA95F800"
 					item: "ae2:engineering_processor"
 					type: "item"
@@ -294,7 +257,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -309,11 +272,11 @@
 			tasks: [{
 				consume_items: true
 				id: "48E21FF58B611ED2"
-				item: "gtmutils:gold_credit"
+				item: "gtmutils:platinum_credit"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -328,11 +291,11 @@
 			tasks: [{
 				consume_items: true
 				id: "15412C22E7D0F272"
-				item: "gtmutils:gold_credit"
+				item: "gtmutils:platinum_credit"
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -347,11 +310,11 @@
 			tasks: [{
 				consume_items: true
 				id: "06146A96DC50BF8A"
-				item: "gtmutils:gold_credit"
+				item: "gtmutils:platinum_credit"
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -365,18 +328,18 @@
 			tasks: [{
 				consume_items: true
 				id: "4135F0696819181A"
-				item: "gtmutils:gold_credit"
+				item: "gtmutils:platinum_credit"
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
 			icon: "ae2:controller"
 			id: "4534DE0A4EE05439"
 			rewards: [{
-				count: 16
+				count: 2
 				id: "5C57B60328583AE1"
 				item: "ae2:controller"
 				type: "item"
@@ -388,7 +351,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -407,7 +370,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -415,13 +378,13 @@
 			id: "6B5ED5C9302D992C"
 			rewards: [
 				{
-					count: 16
+					count: 4
 					id: "1517B1182646DE63"
 					item: "ae2:interface"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 4
 					id: "4F5B773088900E05"
 					item: "ae2:pattern_provider"
 					type: "item"
@@ -434,7 +397,130 @@
 				type: "item"
 			}]
 			x: 3.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:bee_nest"
+			id: "3050D6FEF1C24BC7"
+			rewards: [{
+				id: "29D48D1D4357F8EE"
+				item: "minecraft:bee_nest"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "48FACBFAE402DD10"
+				item: "gtmutils:copper_credit"
+				type: "item"
+			}]
+			title: "蜂巢"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:glass"
+			id: "2CFF0E48B0187DC5"
+			rewards: [{
+				count: 16
+				id: "41968EA845073BA3"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "37FCEECA2DEB4CFC"
+				item: "gtmutils:silver_credit"
+				type: "item"
+			}]
+			x: 0.0d
 			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:primitive_blast_furnace"
+			id: "4FEF0CFB7C0E7886"
+			rewards: [
+				{
+					id: "430D6850BE7FF9FE"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "20CD755433EE42C8"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "765248C8281E12DF"
+				item: { Count: 6, id: "gtmutils:silver_credit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:sticky_resin"
+			id: "25CFC830A41CCC19"
+			rewards: [{
+				count: 64
+				id: "55A33BAE4BB72EDA"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6F3A577BE1498371"
+				item: "gtmutils:silver_credit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:netherrack"
+			id: "3D63E5DA9DF14AEF"
+			rewards: [{
+				count: 16
+				id: "434D28ECBFEF0AC6"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0EEA0D1E8FE29D5D"
+				item: "gtmutils:silver_credit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:clay"
+			id: "5F509C4E4582CB81"
+			rewards: [{
+				count: 12
+				id: "6107429A8E4F6E56"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "75539597C9B45A3D"
+				item: "gtmutils:copper_credit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
 		}
 	]
 	title: "商店"

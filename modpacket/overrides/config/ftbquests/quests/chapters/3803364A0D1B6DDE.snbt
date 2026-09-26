@@ -2334,6 +2334,168 @@
 			x: 1.5d
 			y: -2.5d
 		}
+		{
+			dependencies: ["5BBFE222190891DE"]
+			id: "7C229DC0845F8220"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2727A0098A37757B"
+				item: "gtna:me_storage"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5BBFE222190891DE"]
+			id: "77125328A5F96D13"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "15E1D53829356C3B"
+				item: "gtna:nexus_molecular_forge"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["26575D4FEB3D3F62"]
+			id: "3DD00A92BE7D3BA4"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3129AEB6E44C1B15"
+				item: "gtna:nexus_me_hypercore"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3DD00A92BE7D3BA4"]
+			id: "30E44D2DEFD2ACD7"
+			tasks: [{
+				id: "7E4B05ACA392B6AC"
+				item: "gtna:t1_crafting_storage_core"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["30E44D2DEFD2ACD7"]
+			id: "2730CE2BA630A460"
+			tasks: [{
+				id: "5E510C1F67B8D892"
+				item: "gtna:t2_crafting_storage_core"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2730CE2BA630A460"]
+			id: "305AECECD4DAB7AC"
+			tasks: [{
+				id: "4B7C33E78FC1E0B5"
+				item: "gtna:t3_crafting_storage_core"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["305AECECD4DAB7AC"]
+			id: "3379632A33D7BD66"
+			tasks: [{
+				id: "769DAA8F0C1CA682"
+				item: "gtna:t4_crafting_storage_core"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3379632A33D7BD66"]
+			id: "3FCADCCC54A5DC6D"
+			tasks: [{
+				id: "6D06493A40E2A758"
+				item: "gtna:t5_crafting_storage_core"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7C229DC0845F8220"]
+			id: "33124F6C882F698E"
+			tasks: [{
+				id: "702BDECEF178ADA4"
+				item: "gtna:t1_me_storage_core"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["33124F6C882F698E"]
+			id: "68A6C7CDF19451F5"
+			tasks: [{
+				id: "41F90CFFD3982A13"
+				item: "gtna:t2_me_storage_core"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["68A6C7CDF19451F5"]
+			id: "39F26A7D4F2823ED"
+			tasks: [{
+				id: "63BBAB3A3A7C649C"
+				item: "gtna:t3_me_storage_core"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["39F26A7D4F2823ED"]
+			id: "5FB00BBCFFB317EF"
+			tasks: [{
+				id: "43E37C137B24F633"
+				item: "gtna:t4_me_storage_core"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5FB00BBCFFB317EF"]
+			id: "74A81570A0D271DB"
+			tasks: [{
+				id: "01C4FBE302D6AA7E"
+				item: "gtna:t5_me_storage_core"
+				type: "item"
+			}]
+			x: 31.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["26F5A04750F6B6DD"]
+			id: "528C6CF372A5ABCA"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "084E7A5DC16081E1"
+				item: "gtna:infinite_cell_component"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.5d
+		}
 	]
 	title: "数字存储"
 }

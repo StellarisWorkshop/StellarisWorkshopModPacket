@@ -151,6 +151,7 @@
 				"1776FA1F3255731E"
 				"0425179329ED1B72"
 				"58BBD540D7D4FF01"
+				"1AD309112ADD8D8D"
 			]
 			description: [
 				"运行&3极限内燃引擎&r时，你肯定想对它进行增益！&m&7不然你费这劲干嘛？&r"
@@ -302,6 +303,7 @@
 			dependencies: [
 				"30A6EDDF25A5E5F8"
 				"14D277A164202FF8"
+				"249FA99AADAC3710"
 			]
 			description: [
 				"&a大型钨钢锅炉&r是终极蒸汽锅炉了。它比上一个更高效，也更高产。"
@@ -761,7 +763,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["216E5A3574AC08BF"]
+			dependencies: [
+				"216E5A3574AC08BF"
+				"16E7CAC7BC8BFD8E"
+			]
 			description: [
 				"这个多方块采矿机和普通的几乎一样，但它范围更大而且用的钻井液更多。"
 				""
@@ -776,8 +781,8 @@
 				type: "item"
 			}]
 			title: "多方块采矿机II"
-			x: 5.860969387755098d
-			y: 0.5221428571428568d
+			x: 5.61d
+			y: 0.66d
 		}
 		{
 			dependencies: ["216E5A3574AC08BF"]

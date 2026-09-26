@@ -167,7 +167,7 @@ ServerEvents.recipes(event => {
 		return event.recipes.gtceu.rock_breaker(`kubejs:${itemName}`)
 			.notConsumable(`${modName}:${itemName}`)
 			.itemOutputs(`${modName}:${itemName}`)
-			["adjacentFluid(net.minecraft.world.level.material.Fluid[])"]("minecraft:lava", "minecraft:water")
+			.adjacentFluidTag("minecraft:lava", "minecraft:water")
 			.duration(16)
 			.EUt(EUt)
 	}
@@ -444,11 +444,11 @@ ServerEvents.recipes(event => {
         C: 'create:cogwheel',
         A: 'create:andesite_casing',
         S: 'gtceu:stone_gear',
-        M: 'ulvcovm:ulv_electric_motor',
+        M: 'gtna:hydraulic_motor',
         F: '#forge:stone'
     })
     event.recipes.gtceu.assembler("create:millstone")
-        .itemInputs('2x gtceu:stone_gear', 'create:cogwheel', 'create:andesite_casing', '2x #forge:stone', 'ulvcovm:ulv_electric_motor')
+        .itemInputs('2x gtceu:stone_gear', 'create:cogwheel', 'create:andesite_casing', '2x #forge:stone', '64x gtna:hydraulic_motor')
         .itemOutputs('create:millstone')
         .duration(50)
         .circuit(11)
@@ -462,11 +462,11 @@ ServerEvents.recipes(event => {
     ], {
         S: 'create:shaft',
         A: 'create:andesite_casing',
-        M: 'ulvcovm:ulv_electric_piston',
+        M: 'gtna:hydraulic_piston',
         W: 'gtceu:wrought_iron_block'
     })
     event.recipes.gtceu.assembler("create:mechanical_press")
-        .itemInputs('gtceu:wrought_iron_block', 'create:shaft', '2x create:andesite_casing', 'ulvcovm:ulv_electric_piston')
+        .itemInputs('gtceu:wrought_iron_block', 'create:shaft', '2x create:andesite_casing', '64x gtna:hydraulic_piston')
         .itemOutputs('create:mechanical_press')
         .duration(50)
         .circuit(11)
@@ -496,11 +496,11 @@ ServerEvents.recipes(event => {
     ], {
         C: 'create:cogwheel',
         A: 'create:andesite_casing',
-        M: 'ulvcovm:ulv_electric_motor',
+        M: 'gtna:hydraulic_motor',
         W: 'create:whisk'
     })
     event.recipes.gtceu.assembler('create:mechanical_mixer')
-        .itemInputs('create:whisk', '2x create:andesite_casing', 'create:cogwheel', 'ulvcovm:ulv_electric_motor')
+        .itemInputs('create:whisk', '2x create:andesite_casing', 'create:cogwheel', '64x gtna:hydraulic_motor')
         .itemOutputs('create:mechanical_mixer')
         .duration(100)
         .circuit(11)
@@ -596,11 +596,11 @@ ServerEvents.recipes(event => {
     ], {
         C: 'gtceu:copper_plate',
         K: 'minecraft:dried_kelp_block',
-        P: 'ulvcovm:ulv_electric_pump',
+        P: 'gtna:hydraulic_pump',
         F: 'gtceu:bronze_normal_fluid_pipe'
     })
     event.recipes.gtceu.assembler("create:hose_pulley")
-        .itemInputs('ulvcovm:ulv_electric_pump', '5x gtceu:copper_plate', 'minecraft:dried_kelp_block', 'gtceu:bronze_normal_fluid_pipe')
+        .itemInputs('64x gtna:hydraulic_pump', '5x gtceu:copper_plate', 'minecraft:dried_kelp_block', 'gtceu:bronze_normal_fluid_pipe')
         .itemOutputs('create:hose_pulley')
         .duration(50)
         .circuit(11)
@@ -631,11 +631,11 @@ ServerEvents.recipes(event => {
     ], {
         C: 'create:copper_casing',
         B: 'gtceu:bronze_plate',
-        P: 'ulvcovm:ulv_electric_pump',
+        P: 'gtna:hydraulic_pump',
         F: 'gtceu:bronze_normal_fluid_pipe'
     })
     event.recipes.gtceu.assembler("create:spout")
-        .itemInputs('2x gtceu:bronze_plate', 'ulvcovm:ulv_electric_pump', 'create:copper_casing', 'gtceu:bronze_normal_fluid_pipe')
+        .itemInputs('2x gtceu:bronze_plate', '64x gtna:hydraulic_pump', 'create:copper_casing', 'gtceu:bronze_normal_fluid_pipe')
         .itemOutputs('create:spout')
         .duration(50)
         .circuit(11)
@@ -648,11 +648,11 @@ ServerEvents.recipes(event => {
         '   '
     ], {
         C: 'create:copper_casing',
-        O: 'ulvcovm:ulv_electric_pump',
+        O: 'gtna:hydraulic_pump',
         H: 'create:chute'
     })
     event.recipes.gtceu.assembler("create:portable_fluid_interface")
-        .itemInputs('ulvcovm:ulv_electric_pump', 'create:copper_casing', 'create:chute')
+        .itemInputs('64x gtna:hydraulic_pump', 'create:copper_casing', 'create:chute')
         .itemOutputs('create:portable_fluid_interface')
         .duration(50)
         .circuit(11)
@@ -668,10 +668,10 @@ ServerEvents.recipes(event => {
         F: 'gtceu:andesite_alloy_frame',
         A: 'gtceu:andesite_alloy_plate',
         C: 'minecraft:copper_block',
-        R: 'ulvcovm:ulv_electric_piston'
+        R: 'gtna:hydraulic_piston'
     })
     event.recipes.gtceu.assembler("create:steam_engine")
-        .itemInputs('gtceu:gold_plate', 'ulvcovm:ulv_electric_piston', 'gtceu:andesite_alloy_frame', '2x gtceu:andesite_alloy_plate', '2x minecraft:copper_block')
+        .itemInputs('gtceu:gold_plate', '64x gtna:hydraulic_piston', 'gtceu:andesite_alloy_frame', '2x gtceu:andesite_alloy_plate', '2x minecraft:copper_block')
         .itemOutputs('create:steam_engine')
         .duration(50)
         .circuit(11)
@@ -687,10 +687,10 @@ ServerEvents.recipes(event => {
         R: 'gtceu:red_alloy_bolt',
         A: 'create:andesite_casing',
         E: 'create:piston_extension_pole',
-        P: 'ulvcovm:ulv_electric_piston'
+        P: 'gtna:hydraulic_piston'
     })
     event.recipes.gtceu.assembler("create:mechanical_piston")
-        .itemInputs('3x gtceu:treated_wood_planks', 'ulvcovm:ulv_electric_piston', '2x gtceu:red_alloy_bolt', '2x create:andesite_casing', 'create:piston_extension_pole')
+        .itemInputs('3x gtceu:treated_wood_planks', '64x gtna:hydraulic_piston', '2x gtceu:red_alloy_bolt', '2x create:andesite_casing', 'create:piston_extension_pole')
         .itemOutputs('create:mechanical_piston')
         .duration(50)
         .circuit(11)
@@ -719,12 +719,12 @@ ServerEvents.recipes(event => {
         'CCC'
     ], {
         W: 'gtceu:treated_wood_planks',
-        R: 'ulvcovm:ulv_electric_motor',
+        R: 'gtna:hydraulic_motor',
         A: 'create:andesite_casing',
         C: 'create:cogwheel'
     })
     event.recipes.gtceu.assembler("create:gantry_carriage")
-        .itemInputs('gtceu:treated_wood_planks', 'ulvcovm:ulv_electric_motor', '2x create:andesite_casing', '3x create:cogwheel')
+        .itemInputs('gtceu:treated_wood_planks', '64x gtna:hydraulic_motor', '2x create:andesite_casing', '3x create:cogwheel')
         .itemOutputs('create:gantry_carriage')
         .duration(50)
         .circuit(11)
@@ -756,11 +756,11 @@ ServerEvents.recipes(event => {
         W: 'gtceu:treated_wood_planks',
         A: 'create:andesite_casing',
         C: 'create:cogwheel',
-        M: 'ulvcovm:ulv_electric_motor',
+        M: 'gtna:hydraulic_motor',
         S: 'create:shaft'
     })
     event.recipes.gtceu.assembler("create:mechanical_bearing")
-        .itemInputs('3x gtceu:treated_wood_planks', '2x create:andesite_casing', '2x create:cogwheel', 'ulvcovm:ulv_electric_motor', 'create:shaft')
+        .itemInputs('3x gtceu:treated_wood_planks', '2x create:andesite_casing', '2x create:cogwheel', '64x gtna:hydraulic_motor', 'create:shaft')
         .itemOutputs('create:mechanical_bearing')
         .duration(50)
         .circuit(11)
@@ -775,11 +775,11 @@ ServerEvents.recipes(event => {
         W: 'gtceu:treated_wood_planks',
         A: 'create:brass_casing',
         C: 'create:cogwheel',
-        M: 'ulvcovm:ulv_electric_motor',
+        M: 'gtna:hydraulic_motor',
         S: 'create:electron_tube'
     })
     event.recipes.gtceu.assembler("create:clockwork_bearing")
-        .itemInputs('3x gtceu:treated_wood_planks', '2x create:brass_casing', '2x create:cogwheel', 'ulvcovm:ulv_electric_motor', 'create:electron_tube')
+        .itemInputs('3x gtceu:treated_wood_planks', '2x create:brass_casing', '2x create:cogwheel', '64x gtna:hydraulic_motor', 'create:electron_tube')
         .itemOutputs('create:clockwork_bearing')
         .duration(50)
         .circuit(11)
@@ -793,12 +793,12 @@ ServerEvents.recipes(event => {
     ], {
         P: 'gtceu:andesite_alloy_plate',
         A: 'create:andesite_casing',
-        M: 'ulvcovm:ulv_electric_motor',
+        M: 'gtna:hydraulic_motor',
         S: 'create:shaft',
         R: '#forge:string'
     })
     event.recipes.gtceu.assembler("create:rope_pulley")
-        .itemInputs('3x gtceu:andesite_alloy_plate', '2x create:andesite_casing', '2x create:shaft', 'ulvcovm:ulv_electric_motor', '#forge:string')
+        .itemInputs('3x gtceu:andesite_alloy_plate', '2x create:andesite_casing', '2x create:shaft', '64x gtna:hydraulic_motor', '#forge:string')
         .itemOutputs('create:rope_pulley')
         .duration(50)
         .circuit(11)
@@ -812,12 +812,12 @@ ServerEvents.recipes(event => {
     ], {
         P: 'gtceu:andesite_alloy_plate',
         A: 'create:brass_casing',
-        M: 'ulvcovm:ulv_electric_motor',
+        M: 'gtna:hydraulic_motor',
         S: 'create:shaft',
         R: '#forge:string'
     })
     event.recipes.gtceu.assembler("create:elevator_pulley")
-        .itemInputs('3x gtceu:andesite_alloy_plate', '2x create:brass_casing', '2x create:shaft', 'ulvcovm:ulv_electric_motor', '#forge:string')
+        .itemInputs('3x gtceu:andesite_alloy_plate', '2x create:brass_casing', '2x create:shaft', '64x gtna:hydraulic_motor', '#forge:string')
         .itemOutputs('create:elevator_pulley')
         .duration(50)
         .circuit(11)
@@ -893,10 +893,10 @@ ServerEvents.recipes(event => {
         P: 'gtceu:andesite_alloy_plate',
         G: 'gtceu:andesite_alloy_gear',
         D: 'gtceu:steel_drill_head',
-        M: 'ulvcovm:ulv_electric_motor'
+        M: 'gtna:hydraulic_motor'
     })
     event.recipes.gtceu.assembler("create:mechanical_drill")
-        .itemInputs('2x create:andesite_casing', '2x gtceu:andesite_alloy_plate', 'gtceu:steel_drill_head', 'gtceu:andesite_alloy_gear', 'ulvcovm:ulv_electric_motor')
+        .itemInputs('2x create:andesite_casing', '2x gtceu:andesite_alloy_plate', 'gtceu:steel_drill_head', 'gtceu:andesite_alloy_gear', '64x gtna:hydraulic_motor')
         .itemOutputs('create:mechanical_drill')
         .duration(50)
         .circuit(11)
@@ -912,10 +912,10 @@ ServerEvents.recipes(event => {
         P: 'gtceu:andesite_alloy_plate',
         G: 'gtceu:andesite_alloy_gear',
         D: 'gtceu:wrought_iron_buzz_saw_blade',
-        M: 'ulvcovm:ulv_electric_motor'
+        M: 'gtna:hydraulic_motor'
     })
     event.recipes.gtceu.assembler("create:mechanical_saw")
-        .itemInputs('2x create:andesite_casing', '2x gtceu:andesite_alloy_plate', 'gtceu:wrought_iron_buzz_saw_blade', 'gtceu:andesite_alloy_gear', 'ulvcovm:ulv_electric_motor')
+        .itemInputs('2x create:andesite_casing', '2x gtceu:andesite_alloy_plate', 'gtceu:wrought_iron_buzz_saw_blade', 'gtceu:andesite_alloy_gear', '64x gtna:hydraulic_motor')
         .itemOutputs('create:mechanical_saw')
         .duration(50)
         .circuit(11)
@@ -931,10 +931,10 @@ ServerEvents.recipes(event => {
         P: 'gtceu:andesite_alloy_plate',
         G: 'create:shaft',
         D: 'create:brass_hand',
-        M: 'ulvcovm:ulv_electric_piston'
+        M: 'gtna:hydraulic_piston'
     })
     event.recipes.gtceu.assembler("create:deployer")
-        .itemInputs('2x create:andesite_casing', '2x gtceu:andesite_alloy_plate', 'create:brass_hand', 'create:shaft', 'ulvcovm:ulv_electric_piston')
+        .itemInputs('2x create:andesite_casing', '2x gtceu:andesite_alloy_plate', 'create:brass_hand', 'create:shaft', '64x gtna:hydraulic_piston')
         .itemOutputs('create:deployer')
         .duration(50)
         .circuit(11)
@@ -947,11 +947,11 @@ ServerEvents.recipes(event => {
         '   '
     ], {
         C: 'create:andesite_casing',
-        O: 'ulvcovm:ulv_conveyor_module',
+        O: 'gtna:hydraulic_conveyor',
         H: 'create:chute'
     })
     event.recipes.gtceu.assembler("create:portable_storage_interface")
-        .itemInputs('ulvcovm:ulv_conveyor_module', 'create:andesite_casing', 'create:chute')
+        .itemInputs('64x gtna:hydraulic_conveyor', 'create:andesite_casing', 'create:chute')
         .itemOutputs('create:portable_storage_interface')
         .duration(50)
         .circuit(11)
@@ -1251,11 +1251,11 @@ ServerEvents.recipes(event => {
         '   '
     ], {
         C: 'create:cogwheel',
-        P: 'ulvcovm:ulv_electric_pump',
+        P: 'gtna:hydraulic_pump',
         F: 'create:fluid_pipe'
     })
     event.recipes.gtceu.assembler("create:mechanical_pump")
-        .itemInputs('create:fluid_pipe', 'ulvcovm:ulv_electric_pump', 'create:cogwheel')
+        .itemInputs('create:fluid_pipe', '64x gtna:hydraulic_pump', 'create:cogwheel')
         .itemOutputs('create:mechanical_pump')
         .circuit(10)
         .duration(50)

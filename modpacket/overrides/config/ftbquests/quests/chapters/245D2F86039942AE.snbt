@@ -677,11 +677,19 @@
 		{
 			dependencies: ["7119864716A55CC4"]
 			id: "6A7F46605E20D4FE"
-			tasks: [{
-				id: "447ABF11908FFA7B"
-				title: "应力设备"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2EA25A2337B37623"
+					item: "gtna:hydraulic_motor"
+					type: "item"
+				}
+				{
+					id: "30E91872F5756E33"
+					item: "gtna:hydraulic_piston"
+					type: "item"
+				}
+			]
+			title: "动力模块需要他们"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -1062,11 +1070,19 @@
 		{
 			dependencies: ["6A7F46605E20D4FE"]
 			id: "5198E6D70027BF4A"
-			tasks: [{
-				id: "0F325637C1142A95"
-				title: "结构化模块"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "59AB29C1FBF6EEF7"
+					item: "gtna:hydraulic_pump"
+					type: "item"
+				}
+				{
+					id: "670700A15377765E"
+					item: "gtna:hydraulic_conveyor"
+					type: "item"
+				}
+			]
+			title: "转动部件需要他们"
 			x: 4.5d
 			y: 3.0d
 		}

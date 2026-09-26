@@ -1,8 +1,3 @@
-# 扩展样板供应器总槽位容量的倍率。
-# 基础为36，每页仍显示36格，倍率会增加总页数/总容量。
-# 建议范围 1-16
-pageMultiplier: 1
-
 # 设置AE构建合成计划过程中的 wait/notify 次数，提升吞吐但会降低调度响应性
 craftingPauseThreshold: 100000
 
@@ -35,6 +30,18 @@ showEncoderPatternPlayer: true
 # 样板终端默认是否显示槽位
 # 影响进入界面时SlotsRow的默认可见性，仅影响客户端显示
 patternTerminalShowSlotsDefault: true
+
+# 样板终端默认是否合并空槽位
+# 开启后只会显示到最后一个有物品的槽位之后的一个空槽位（直到占满供应器所有槽位）
+patternTerminalMergeEmptySlotsDefault: true
+
+# JEI 中是否显示 AE2 网络库存与可合成状态
+# 可通过 JEI 左下角按钮即时切换
+jeiNetworkOverlayEnabled: true
+
+# 扩展样板供应器是否显示倍率调整按钮
+# 可通过扩展样板供应器左侧工具栏即时切换
+extendedPatternProviderShowScalingControls: true
 
 # 实体加速器能量消耗基础值
 entityTickerCost: 512
