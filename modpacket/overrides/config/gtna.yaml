@@ -23,6 +23,14 @@ client:
   # Pt: Mostra o HUD da rede wireless de vapor (saldo, fluxo e hatches conectados).
   wirelessSteamHud: false
 
+  # En: Show the Nexus wireless energy HUD.
+  # Pt: Mostra o HUD de energia wireless do Nexus.
+  wirelessEnergyHud: false
+
+  wirelessEnergyHudX: 5
+
+  wirelessEnergyHudY: 60
+
   # En: Wireless steam HUD horizontal position: 0 = left edge, 100 = right edge.
   # Pt: Posicao horizontal do HUD de vapor: 0 = esquerda, 100 = direita.
   wirelessSteamHudX: 5
@@ -301,4 +309,6 @@ hatchToggles:
   meBigStorageAccessHatch: true
 
   meIOPortHatch: true
+
+  meExportBuffer: true
 

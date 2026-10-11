@@ -1,7 +1,4 @@
 {
-  "framedblocks": {
-    "framed_item_frame": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -72,6 +69,69 @@
   "enigmaticgraves": {
     "grave": true
   },
+  "createsifter": {
+    "sifter_data": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "mod_name": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
+  "gtna": {
+    "gto_status": true,
+    "isa_mill_status": true,
+    "solar_boiler_provider": true,
+    "block_stats": true,
+    "void_miner_random": true,
+    "multiple_recipes_provider": true,
+    "me_pattern_buffer": true,
+    "wireless_steam_network": true
+  },
+  "extendedae_plus": {
+    "labeled_wireless_component": true,
+    "wt_locked": true,
+    "wt_frequency": true,
+    "wt_network_usable": true,
+    "wt_master_mode": true,
+    "wt_channels": true,
+    "wt_master_location": true,
+    "wt_owner": true
+  },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "pipez": {
+    "pipe": true
+  },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
+  },
+  "framedblocks": {
+    "framed_item_frame": true
+  },
   "gtceu": {
     "primitive_pump": true,
     "auto_output_info": true,
@@ -97,17 +157,6 @@
     "parallel_info": true,
     "data_bank": true
   },
-  "createsifter": {
-    "sifter_data": true
-  },
-  "jade": {
-    "coordinates.rel": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "mod_name": true
-  },
   "expatternprovider": {
     "jade_chamber": true,
     "jade_wireless": true
@@ -117,18 +166,6 @@
   },
   "balm": {
     "jade": true
-  },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
   },
   "productivebees": {
     "solitary_nest": true,
@@ -140,46 +177,19 @@
   "modularrouters": {
     "router": true
   },
-  "gtna": {
-    "solar_boiler_provider": true,
-    "multiple_recipes_provider": true,
-    "me_pattern_buffer": true,
-    "wireless_steam_network": true
+  "enderio_evolution": {
+    "capacitor_bank_render": true
   },
-  "extendedae_plus": {
-    "labeled_wireless_component": true,
-    "wt_locked": true,
-    "wt_frequency": true,
-    "wt_network_usable": true,
-    "wt_master_mode": true,
-    "wt_channels": true,
-    "wt_master_location": true,
-    "wt_owner": true
+  "enderio_conduit_opt": {
+    "conduit_info": true
   },
   "gtmoremachine": {
     "wireless_energy_provider": true,
     "wireless_cwu_provider": true,
     "wireless_optical_computation_hatch_provider": true
   },
-  "mekanism": {
-    "infuse_type": true,
-    "gas": true,
-    "remove_builtin": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
   "mysticalagradditions": {
     "infused_farmland": true
-  },
-  "pipez": {
-    "pipe": true
-  },
-  "touhou_little_maid": {
-    "maid": true,
-    "shrine_lamp": true
   },
   "ae2cs": {
     "jade/ender_broadcaster": true,
